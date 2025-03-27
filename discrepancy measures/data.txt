@@ -1,0 +1,47 @@
+Discrepancy of 1024 Sobol no discard points in dim 15
+Star:   0.0020977927196235355
+L2:     0.00037042655063740382
+Discrepancy of 1024 Sobol with discard points in dim 15
+Star:   0.0024166111807041833
+L2:     0.00039920636866503485
+Discrepancy of 1024 Faure no discard points in dim 15
+Star:   0.0096008122444532686
+L2:     0.0019070735476359167
+Discrepancy of 1024 Random points in dim 15
+Star:   0.0030712175473343491
+L2:     0.00035909373467605822
+
+Discrepancy of 1024 Non-Uniform points in dim 15
+Star:   0.99999999999998135
+L2:     0.99996951680313761
+
+Discrepancy of 1024 Non-Uniform points in dim 100
+Star:   1
+L2:     1
+
+Discrepancy of 131072 Sobol no discard points in dim 5
+Star:   0.00012713988792882602
+Discrepancy of 131072 Sobol with discard points in dim 5
+Star:   0.00015264031295536551
+Discrepancy of 131072 Faure no discard points in dim 5
+Star:   0.00019005117192924872
+Discrepancy of 131072 Random points in dim 5
+Star:   0.0031400574861091546
+
+Discrepancy of 100000 Sobol no discard points in dim 15
+Star:   0.00013486516953685381
+Discrepancy of 100000 Sobol with discard points in dim 15
+Star:   0.00025157831802362124
+Discrepancy of 100000 Faure no discard points in dim 15
+Star:   0.00019469235307045525
+Discrepancy of 100000 Random points in dim 15
+Star:   0.0002012575006991855
+
+Discrepancy of 65536 Sobol no discard points in dim 150
+Star:   5.9315531615482898e-50
+Discrepancy of 65536 Sobol with discard points in dim 150
+Star:   4.3825802400731028e-52
+Discrepancy of 65536 Faure no discard points in dim 150
+Star:   0.0001220703125
+Discrepancy of 65536 Random points in dim 150
+Star:   3.9291637561292165e-51
