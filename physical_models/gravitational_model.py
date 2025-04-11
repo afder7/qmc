@@ -59,7 +59,7 @@ def force(points):
                     sign = -1 if points[i].coords[k] < points[j].coords[k] else 1
                     delta = abs(points[i].coords[k] - points[j].coords[k])
                     a_ijk = sign * delta * (1 - delta) * (1 - 2 * delta)
-                    f[i][k] = -G * a_ijk / dist(points[i].coords, points[j].coords) ** 3
+                    f[i][k] += -G * a_ijk / dist(points[i].coords, points[j].coords) ** 3
 
     return f
 
