@@ -7,9 +7,9 @@ delta_t = 0.001
 kappa = 100
 m = 1  # actual value is calculated when the points are scattered
 c = 1  # actual value is calculated when the points are scattered
-A0 = 2 * m / delta_t ** 2 + c / (2 * delta_t)
-A1 = 3 * m / delta_t ** 2 + c / (2 * delta_t)
-A2 = m / delta_t ** 2
+A0 = m / delta_t ** 2 + c / (2 * delta_t)
+A1 = 2 * m / delta_t ** 2
+A2 = m / delta_t ** 2 - c / (2 * delta_t)
 
 cur_U = 0
 
@@ -119,7 +119,7 @@ class MovingPoints:
 
     def update(self):
         global counter, x_prev
-        if counter < 1000:
+        if counter < 1500:
 
             f = force(self.points)
 
