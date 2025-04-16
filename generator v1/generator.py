@@ -63,12 +63,13 @@ def force(points):
 
     for i in range(num):
         for j in range(num):
+            d = dist(points[i].coords, points[j].coords)
             if j != i:
                 for k in range(dim):
                     sign = -1 if points[i].coords[k] < points[j].coords[k] else 1
                     delta = abs(points[i].coords[k] - points[j].coords[k])
                     a_ijk = sign * delta * (1 - delta) * (1 - 2 * delta)
-                    f[i][k] += -G * a_ijk / dist(points[i].coords, points[j].coords) ** 3
+                    f[i][k] += -G * a_ijk / (d ** 3)
 
     return f
 
